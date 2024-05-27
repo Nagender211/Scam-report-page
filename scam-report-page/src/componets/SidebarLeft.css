@@ -1,0 +1,69 @@
+.side_navbar {
+  width: 15%;
+  background: #ccc;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: calc(90vh - 25px); 
+  position: fixed;
+  top: 110px;
+  left: 0;
+}
+
+.side_navbar span {
+  color: rgb(0, 0, 0);
+  margin-bottom: 1rem;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+.side_navbar a {
+  padding: 0.8rem 0;
+  font-weight: 500;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: block;
+}
+
+.links {
+  margin-top: 5rem;
+}
+
+.links a {
+  font-size: 13px;
+}
+
+.side_navbar a:hover,
+.side_navbar .active {
+  background: rgb(235, 235, 235);
+}
+.danger_zone{
+  
+  top: -200px;
+  margin-top: 40px;
+  gap: 0.5rem;
+}
+.sidebar_icons a{
+  gap: 2rem;
+  padding: 10px;
+}
+.Groups_zone{
+  top: -250px;
+  margin-top: 40px;
+  display: grid;
+  gap: 2rem;
+
+}
+.account {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+ .account img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 50%;
+}
