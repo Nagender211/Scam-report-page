@@ -12,11 +12,7 @@ const Header = () => {
         <h1><a href="#">Scam</a></h1>
       </div>
       
-      <div className="search_box">
-      <FaSearch  className='search_box_icon'/>
-        <input type="text" placeholder="Search Scam"/>
-       
-      </div>
+  
       <div className="header-icons">
         <TiMessages />
         <IoIosNotifications />

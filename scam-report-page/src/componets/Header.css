@@ -42,7 +42,8 @@
 
 .header-icons {
   display: flex;
-  align-items: center;
+  align-items: end;
+  margin-left: 60rem;
 }
 
 .header-icons svg {
